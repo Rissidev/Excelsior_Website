@@ -38,12 +38,31 @@ nav h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: xx-large;
 }
+
+.footer1 {
+  margin: 140px 0 10px;
+  text-align: center;
+  color: rgb(100, 98, 98);
+}
+.footer1 a {
+  text-decoration: none;
+  color: #999;
+  font-size: 22px;
+  margin: 0 10px;
+}
+.footer1 hr {
+  background: #999;
+  height: 1px;
+  width: 100%;
+  margin: 20px 0;
+}
+
 @media only screen and (min-width: 763px) {
   .list {
     border: 2px solid #000;
     border-radius: 10px;
     padding: 20px;
-    margin: 30px 350px;
+    margin: 160px 100px 40px;
   }
   .list h3 {
     font-weight: 600;
@@ -56,13 +75,13 @@ nav h1 {
 
   .list li {
     margin: 10px;
-    font-size: 18px;
-    text-align: justify;
+    font-size: 28px;
+    text-align: left;
     font-family: "Times New Roman", Times, serif;
     list-style-type: none;
-    margin-left: 175px;
+    margin-left: 15px;
   }
-  
+
   .list strong {
     font-family: Georgia, "Times New Roman", Times, serif;
   }
@@ -71,4 +90,25 @@ h1 {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: yellow;
+}
+.footer {
+  margin: 10px 0 10px;
+  text-align: center;
+  color: rgb(100, 98, 98);
+}
+.footer a {
+  text-decoration: none;
+  color: #999;
+  font-size: 22px;
+  margin: 0 10px;
+}
+.footer hr {
+  background: #999;
+  height: 1px;
+  width: 100%;
+  margin: 20px 0;
+}
+.credits {
+  text-align: right;
+  font-size: 10px;
 }
