@@ -47,7 +47,7 @@ nav h1 {
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
-  font-size: 60px;
+  font-size: 55px;
   margin: 10px 0;
   text-align: center;
 }
@@ -64,7 +64,6 @@ nav h1 {
 .list strong {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-
 
 .footer1 {
   margin: 140px 0 10px;
