@@ -7,13 +7,13 @@
 }
 
 section {
-  height: 100vh;
+  height: 40vh;
   width: 100%;
 }
 
 video {
   width: 100vw;
-  height: 100vh;
+  height: 35vh;
   object-fit: cover;
   position: absolute;
   top: 0;
@@ -36,23 +36,22 @@ nav img {
 }
 
 .btn1 {
-  padding: 10px 5px;
-  margin-right: 25rem;
+  padding: 5px 5px;
+  margin-right: 5rem;
   border-radius: 20px;
   background: #ff5361;
   border: black;
   transition-duration: 0.4s;
-  width: 150px;
+  width: 80px;
 }
 
 .btn {
-  padding: 10px 5px;
   margin-right: 25rem;
   border-radius: 20px;
   background: #ff5361;
   border: black;
   transition-duration: 0.4s;
-  width: 150px;
+  width: 125px;
 }
 
 .logo-2 {
@@ -90,7 +89,7 @@ nav img {
   font-size: 30px;
   font-weight: 600;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 52px;
   color: #fff;
   font-style: italic;
   padding: 22px;
@@ -100,8 +99,8 @@ nav img {
 }
 
 .title3 {
-  margin: 50px 90px 20px;
-  font-size: 2.2vw;
+  margin: 50px 60px 20px;
+  font-size: 20px;
   font-weight: 500;
   color: black;
 }
@@ -303,6 +302,40 @@ nav img {
 }
 
 @media only screen and (min-width: 763px) {
+  section {
+    height: 100vh;
+    width: 100%;
+  }
+
+  video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .container h1 {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 200px;
+    color: #fff;
+    font-style: italic;
+    padding: 22px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #f5f5f5;
+    width: 70%;
+  }
+  .title3 {
+    margin: 50px 90px 20px;
+    font-size: 2.2vw;
+    font-weight: 500;
+    color: black;
+  }
   .stories {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
@@ -335,17 +368,11 @@ nav img {
     font-family: Georgia, "Times New Roman", Times, serif;
   }
 
-  .container h1 {
-    font-size: 55px;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 30%;
-    color: #fff;
-    font-style: italic;
-    padding: 22px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    width: 70%;
-    color: whitesmoke;
+  nav img {
+    width: 14%;
+    margin-top: 5px;
+    margin-left: 2%;
+    border-radius: 35px;
   }
   .logo-2 {
     width: 80%;
@@ -365,6 +392,15 @@ nav img {
   .btn1 {
     padding: 8px 3px;
     margin-right: 2rem;
+    border-radius: 20px;
+    background: #ff5361;
+    border: black;
+    transition-duration: 0.4s;
+    width: 150px;
+  }
+  .btn {
+    padding: 5px 5px;
+    margin-right: 25rem;
     border-radius: 20px;
     background: #ff5361;
     border: black;
